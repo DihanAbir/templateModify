@@ -48,7 +48,27 @@ Author URI: http://themeforest.net/user/Ansonika/
 /*============================================================================================*/
 
 /*-------- Allert for old browsers IE8 and below --------*/
-
+/* Scroll bar css  */
+::-webkit-scrollbar {
+	width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+	box-shadow: inset 0 0 5px grey; 
+	border-radius: 0px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+	background: #5790da;
+	border-radius: 4px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+	background: #3582E4 ;
+  }
 .chromeframe {
 	background: #ddd;
 	color: #000;
@@ -925,9 +945,10 @@ figure img{
 }
 
 .course_container .course_title h3 {
-	margin: 0;
-	font-size: 18px;
-	font-weight: 500;
+    margin: 10px 0 0 0;
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom: 5px;
 }
 
 .course_container figure a:hover img {
@@ -3415,11 +3436,9 @@ b{
 .main-menu > ul > li:hover > a {
     color: #00065e!important;
 }
-.slidersection{
-	background-color: #1E1E1E;
-	padding-top: 25px;
-	height: 600px;
-}
+
+
+  
 .textdetails, .textdetails h3{
 	color: white;
 }
@@ -3674,3 +3693,24 @@ footer p{
 	color: #d0d0d0;
 	padding: 0 35px 0 0;
 }
+
+.slidersection{
+	background-color: #1E1E1E;
+	padding-top: 25px;
+	height: 50VH;
+}
+
+.slidersection .title{
+	color: white;
+}
+
+
+/* @media only screen and (max-width: 1367) {
+	.slidersection{
+		background-color: #1E1E1E;
+		color: white;
+		padding-top: 25px;
+		height:772px!important
+	}
+	
+} */
